@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Explore Nature</title>
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Explore Nature</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Forests</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Oceans</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Wildlife</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://cdn.pixabay.com/photo/2020/08/28/13/15/river-5524569_1280.jpg" class="d-block w-100" alt="Lush Forests">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>The Beauty of Lush Forests</h5>
+          <p>Experience the tranquility and magnificence of Earth's green lungs, where life thrives in harmony.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://cdn.pixabay.com/photo/2012/03/03/23/54/animal-21668_1280.jpg" class="d-block w-100" alt="Oceans">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Discover the Deep Oceans</h5>
+          <p>Dive into the mysteries of the ocean, home to the most diverse ecosystems on the planet.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://cdn.pixabay.com/photo/2014/11/03/17/40/leopard-515509_1280.jpg" class="d-block w-100" alt="Wildlife">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Wildlife in Its Natural Habitat</h5>
+          <p>Explore the captivating wildlife that roams free in the wilderness.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Cards Section -->
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="card">
+          <img src="https://cdn.pixabay.com/photo/2022/09/16/23/09/jungle-7459821_960_720.jpg" class="card-img-top" alt="Rainforests">
+          <div class="card-body">
+            <h5 class="card-title">Rainforests</h5>
+            <p class="card-text">Rainforests are vital for the planet, producing oxygen and serving as a refuge for countless species.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card">
+          <img src="https://cdn.pixabay.com/photo/2018/03/22/14/58/underwater-3250644_1280.jpg" class="card-img-top" alt="Coral Reefs">
+          <div class="card-body">
+            <h5 class="card-title">Coral Reefs</h5>
+            <p class="card-text">These vibrant underwater ecosystems are known as the "rainforests of the sea" and are crucial for marine life.</p>
+            <a href="#" class="btn btn-primary">Discover More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card">
+          <img src="https://cdn.pixabay.com/photo/2023/02/27/13/48/goat-7818454_640.jpg" class="card-img-top" alt="Endangered Species">
+          <div class="card-body">
+            <h5 class="card-title">Endangered Species</h5>
+            <p class="card-text">Learn about the challenges faced by endangered species and how conservation efforts aim to protect them.</p>
+            <a href="#" class="btn btn-primary">Find Out More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-light text-center text-lg-start">
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase">About Nature</h5>
+          <p>
+            Nature is the world's greatest teacher, inspiring us to protect and preserve its beauty for future generations. Let's explore and understand the natural world together.
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Explore</h5>
+          <ul class="list-unstyled mb-0">
+            <li><a href="#" class="text-dark">Forests</a></li>
+            <li><a href="#" class="text-dark">Oceans</a></li>
+            <li><a href="#" class="text-dark">Wildlife</a></li>
+            <li><a href="#" class="text-dark">Conservation</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Contact Us</h5>
+          <ul class="list-unstyled mb-0">
+            <li><a href="mailto:contact@explorenature.com" class="text-dark">Email: contact@explorenature.com</a></li>
+            <li><a href="tel:+1234567890" class="text-dark">Phone: +123 456 7890</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center p-3 bg-dark text-white">
+      © 2024 Explore Nature. All rights reserved.
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS and Popper.js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
